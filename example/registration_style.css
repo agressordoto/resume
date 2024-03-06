@@ -1,0 +1,56 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+
+    padding: 32px;
+    width:300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+}
+
+form label{
+    font-family: Arial;
+    transition: 0.3s;
+    border: none;
+}
+
+form input{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+form button{
+    border: none;
+    background-color: #0071f0;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 4px 4px 4px;
+    box-shadow: 4px 2px 5px #0071f1;
+}
+.vhod{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.formposts button{
+    border: none;
+    background-color: #0071f0;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 4px 4px 4px;
+    box-shadow: 4px 2px 5px #0071f1;
+}
+
+

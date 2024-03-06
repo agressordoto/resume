@@ -1,0 +1,120 @@
+
+footer{
+    background-color: #B5B8B1;
+    margin-top: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+    padding: 15px 2%;
+}
+header{
+    background-color: #d3d9ca;
+}
+
+header a img{
+
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.search{
+    border-radius: 2px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid;
+
+}
+.a-search{
+    padding-top:20px;
+}
+
+.OpenForm{
+
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 32px #ccc;
+    padding-bottom: 500px;
+    padding-right: 85%;
+    padding-top: 50px;
+
+
+
+
+}
+
+.OpenForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.msg{
+    padding: 2px 0;
+    margin: 5px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgprofile{
+    width: 50px;
+    display: flex;
+
+}
+.poisk{
+    border: none;
+    background-color: #0071f1;
+    color: white;
+    border-radius: 16px;
+    padding: 2px 2px 2px 2px;
+}
+body{
+    background-color: #d9d4d4;
+}
+
+
+
+
