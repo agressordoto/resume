@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 04 2024 г., 17:51
+-- Время создания: Мар 06 2024 г., 06:32
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
@@ -40,10 +40,7 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `id_autor`, `tittle`, `text`, `image`) VALUES
-(61, 20, 'Вадим Роор', 'asdasdasd', 'img/16955428041695368103search.png'),
-(62, 21, 'asdasd', 'asdasd', 'img/169554287416953685281695368103search.png'),
-(63, 21, 'Привет', 'Привет', 'img/1695614824photo_2023-09-04_17-46-02.jpg'),
-(64, 21, 'Название статьи', 'Текст статьи', 'img/1695615946_Rl9fwvaInY.jpg');
+(65, 21, 'Статья', 'СТатья', 'img/17096958891695368103search.png');
 
 -- --------------------------------------------------------
 
@@ -93,7 +90,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 
 --
 -- AUTO_INCREMENT для таблицы `users`
